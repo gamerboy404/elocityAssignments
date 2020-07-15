@@ -1,0 +1,19 @@
+{
+  "name": "programming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "jest"
+  },
+  "author": "pango89",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4"
+  }
+}

@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\FizzBuzz",
+    "\\_tests_",
+    "\\_tests_\\FizzBuzz"
   ],
+  "SelectedNode": "\\src\\FizzBuzz\\fizzbuzz.js",
   "PreviewInSolutionExplorer": false
 }
