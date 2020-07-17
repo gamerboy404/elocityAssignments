@@ -7,5 +7,7 @@ describe("a Class that creates a a linked list data type", () => {
     expect((ll.head.data)).toEqual(100);
     ll.insertAtHead(200);
     expect((ll.head.data)).toEqual(200);
+    ll.removeFirstNode();
+    expect((ll.head.data)).toEqual(100);
   });
 });
