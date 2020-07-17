@@ -7,4 +7,7 @@ describe("give most frequently used Kth element ", () => {
   it("for bubble is should give b ", () => {
     expect(topKElement("bubble", 1)).toEqual(["b"]);
   });
+  it("boogiewoogie shoulld give o , e, i",  () => {
+    expect(topKElement("boogiewoogie", 3)).toEqual(["o", "e", "g"]);
+  });
 });

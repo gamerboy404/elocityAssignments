@@ -24,4 +24,4 @@ let multipleFinder = (num) => {
   return fbArr;
 };
 export default multipleFinder;
-//console.log(multipleFinder(10));
+

@@ -16,4 +16,17 @@ describe("divides array in to chunks of given number", () => {
       [7, 8, 9],
     ]);
   });
+  it("should give chunks of size 1", () => {
+    expect(arrToChunk([1, 2, 3, 4, 5, 6, 7, 8, 9], 1)).toEqual([
+      [1],
+      [2],
+      [3],
+      [4],
+      [5],
+      [6],
+      [7],
+      [8],
+      [9],
+    ]);
+  });
 });
