@@ -7,7 +7,7 @@ class Node {
 }
 
 // Create/Get/Remove Nodes From Linked List
-class LinkedList {
+class LinkedList extends Node {
   constructor() {
     this.head = null;
     this.size = 0;
@@ -156,5 +156,4 @@ class LinkedList {
   };
 }
 const ll = new LinkedList;
-
 export {Node, LinkedList};
